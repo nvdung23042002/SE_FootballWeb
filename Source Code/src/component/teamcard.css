@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: 'row';
+    height: 40px;
+    padding: 5px;
+    align-items: center;
+    font-size: small;
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+}
+
+.idx {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+
+.team img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+.team div {
+
+    text-align: left;
+}

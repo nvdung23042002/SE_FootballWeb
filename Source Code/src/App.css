@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 50px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  color: #181818;
+  font-weight: bold;
+  font-size: large;
+}
+
+.active {
+  color: tomato;
+}
+
+.main {
+  margin-left: 5px;
+  margin-top: 1em;
+}
+::-webkit-scrollbar {
+  display: none;
+}

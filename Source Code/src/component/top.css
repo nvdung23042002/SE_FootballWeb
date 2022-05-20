@@ -1,0 +1,55 @@
+.top {
+    border-radius: 10px;
+    border: 1px solid #181818;
+    height: fit-content;
+    padding-bottom: 5px;
+}
+.header {
+    height: 30px;
+    
+    border-bottom: 1px solid #181818;
+}
+.header-inner {
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+}
+.card-player {
+    width: fit-content;
+    height: 30px;
+    border-bottom: 1px solid #181818;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rank {
+    width: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+.name-player {
+    width: 100px;
+    text-align: left;
+    font-size: 12px;
+}
+.club {
+    width: 30px;
+    font-size: 12px;
+    
+    
+}
+.nationality {
+    width: 80px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+}
+.stat {
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+}

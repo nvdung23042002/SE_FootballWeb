@@ -1,0 +1,108 @@
+.bxh-min {
+    border-radius: 10px;
+    border: 1px solid #181818;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    height: fit-content;
+}
+
+.card {
+    display: flex;
+    flex-direction: 'row';
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+    font-size: small;
+    border-bottom: 1px solid #181818;
+}
+
+.bxh-min-header {
+    text-align: left;
+    padding-left: 10px;
+    height: 30px;
+    border-bottom: 1px solid #181818;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.selecter {
+    width: 270px;
+    height: 30px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.idx {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 16px;
+    width: 18px;
+    bottom: 0;
+    height: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.bxhmin-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+
+}
+
+.bxhmin-team img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+.bxhmin-team div {
+
+    text-align: left;
+}
+
+.league-des {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    padding-left: 18px;
+
+}
+
+.ry-blue {
+    background-color: royalblue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.ry-green {
+    background-color: lightgreen;
+}
+
+.ry-red {
+    background-color: maroon;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

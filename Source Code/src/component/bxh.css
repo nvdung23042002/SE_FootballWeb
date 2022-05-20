@@ -1,0 +1,102 @@
+.bxh {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    border: 1px solid #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bxh-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bxh-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bxh-title-img {
+    width: auto;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.idx {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.foot {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 16px;
+    width: 18px;
+    bottom: 0;
+    height: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.bxh-team {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+}
+
+.bxh-team img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+
+}
+
+.bxh-team div {
+
+    text-align: left;
+}
+
+.league-des {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    padding-left: 18px;
+
+}
+
+.ry-blue {
+    background-color: royalblue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.ry-green {
+    background-color: lightgreen;
+}
+
+.ry-red {
+    background-color: maroon;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

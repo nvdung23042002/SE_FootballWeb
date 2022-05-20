@@ -1,0 +1,27 @@
+.fixtures {
+    padding: 5px;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.time-fl {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.date-month {
+    font-size: 11px;
+}
+.hour-fl {
+    font-size: 13px;
+}
+.h2h-score {
+    margin-left: auto;
+    margin-right: 15px;
+}
+.score {
+    font-weight: bold;
+}
